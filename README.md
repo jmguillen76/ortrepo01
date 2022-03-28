@@ -9,7 +9,7 @@ git commit -m "Mensaje"
 
 git push origin main
 
-git remote set-url origin https://oauth2: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@github.com/jmguillen76/ortrepo01
+git remote set-url origin https://oauth2:TOKEN@github.com/jmguillen76/ortrepo01
 
 
 ## NPM
