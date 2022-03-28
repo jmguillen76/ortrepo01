@@ -26,6 +26,13 @@ Si se necesita configurar el token de acceso para hacer *push*
 git remote set-url origin https://oauth2:TOKEN@github.com/jmguillen76/ortrepo01
 ```
 
+### Ramas
+
+Para crear una nueva rama
+```
+git checkout -b feat01 main
+```
+
 ## NPM
 Para crear el *package.json* ejecutamos *npm init*
 
