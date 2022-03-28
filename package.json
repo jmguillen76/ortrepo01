@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jmguillen76/ortrepo01/issues"
   },
-  "homepage": "https://github.com/jmguillen76/ortrepo01#readme"
+  "homepage": "https://github.com/jmguillen76/ortrepo01#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
