@@ -1,9 +1,14 @@
 # Datos útiles
 
 ## Git
-Para iniciar el repositoriode Git
+Para iniciar el repositorio de Git
 ```
 git init
+```
+
+Para clonar el repositorio
+```
+git clone URL_REPOSITORIO
 ```
 
 Para *trackear* archivos cambiados 
