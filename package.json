@@ -1,0 +1,19 @@
+{
+  "name": "ortrepo01",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmguillen76/ortrepo01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmguillen76/ortrepo01/issues"
+  },
+  "homepage": "https://github.com/jmguillen76/ortrepo01#readme"
+}
