@@ -28,9 +28,14 @@ git remote set-url origin https://oauth2:TOKEN@github.com/jmguillen76/ortrepo01
 
 ### Ramas
 
+Para cambiar de rama
+```
+git checkout RAMA
+```
+
 Para crear una nueva rama
 ```
-git checkout -b feat01 main
+git checkout -b NUEVA_RAMA main
 ```
 
 ## NPM
