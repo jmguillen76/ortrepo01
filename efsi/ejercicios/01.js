@@ -1,4 +1,4 @@
-// De la lista 11, 33, 2, -1, 110, 99, 8 obtener 
+// De la lista 11, 9, 2, -1, 110, 99, 8 obtener 
 // el segundo mayor impar.
 
 const data = [11, 9, 2, -1, 110, 99, 8];
