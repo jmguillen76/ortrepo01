@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-const process_data = (datos) => {
+const process_data = () => {
 
     let x = 100;
 

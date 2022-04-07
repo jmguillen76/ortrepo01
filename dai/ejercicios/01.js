@@ -32,7 +32,7 @@ app.post("/", function (req, res) {
 	console.log(req.body)
 	// res.end();
     res.send(process_data(req.body));
-})
+});
 
 app.listen(PORT, function(err){
 	if (err) console.log(err);
