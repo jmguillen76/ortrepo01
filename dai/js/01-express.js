@@ -1,10 +1,10 @@
-var express = require('express');
-var app = express();
-var PORT = 3000;
+const express = require("express");
+const app = express();
+const PORT = 3000;
 
 app.use(express.json());
 	
-app.post('/', function (req, res) {
+app.post("/", function (req, res) {
 	console.log(req.body)
 	res.end();
 })
