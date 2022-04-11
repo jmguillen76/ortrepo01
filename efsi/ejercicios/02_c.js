@@ -9,6 +9,8 @@ for (let i = 0; i < data.length; i++) {
 
     console.log(typeof data[i-1]);
 
+    // (true/false) ? true : false;
+
     const anterior = typeof data[i-1] === "undefined" ? 0 : data[i-1];
     const siguiente = typeof data[i+1] === "undefined" ? 0 : data[i+1];
 

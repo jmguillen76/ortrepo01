@@ -20,8 +20,9 @@ for (let i = 0; i < dupli.length; i++) {
 
     if (!isNaN(square_root)) {
 
-        const rounded = +square_root.toFixed(2);
+        // const rounded = +square_root.toFixed(2);
         // const rounded = Number(square_root.toFixed(2));
+        const rounded = Math.round(square_root*100)/100;
         // const rounded = parseFloat(square_root.toFixed(2));
         // const rounded = square_root.toFixed(2);
 
