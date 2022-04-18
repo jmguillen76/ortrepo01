@@ -30,8 +30,6 @@ for (const palo of palos) {
     
 }
 
-console.log(mazo);
-
 let count = 0;
 
 for (const carta of mazo) {
@@ -41,3 +39,9 @@ for (const carta of mazo) {
 }
 
 console.log(`Existen ${count} cartas par y negras`);
+
+const carta_al_azar = (mazo) => Math.round(Math.random() * mazo.length)
+
+const rnd1 = carta_al_azar(mazo);
+
+console.log(rnd1);
