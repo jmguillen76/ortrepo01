@@ -5,13 +5,7 @@
 // (haciendo 1000 iteraciones) cuanto valen las cartas (con número)
 // que quedan.
 
-const palos = ['pique', 'diamante', 'corazón', 'trébol'];
-
-const figuras = [
-    'A',
-    2, 3, 4, 5, 6, 7, 8, 9, 10,
-    'J', 'Q', 'K'
-];
+const { palos, figuras } = require('./05_mod.js');
 
 const mazo = [];
 
