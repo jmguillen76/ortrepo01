@@ -14,3 +14,6 @@ Dinámica del juego:
 El juego comienza llamando al endpoint *iniciar_juego* que crea los cartones.
 Los usuarios piden los cartones con su nombre (con *obtener_carton*).
 Se sacan números con *sacar_numero* hasta que el sistema detecta qué cartón obtuvo el bingo mostrando el nombre del jugador que ganó o diciendo que quedó vacante si el cartón ganador no fué reclamado por un jugador.
+
+Extras:
+1) El cartón tiene que tener 15 números repartidos entre las 10 decenas de los 100 números posibles de manera que en cada decena (por ejemplo del 0 al 9, del 10 al 19, etc) existan 1 o 2 números.
