@@ -17,3 +17,8 @@ Se sacan números con *sacar_numero* hasta que el sistema detecta qué cartón o
 
 Extras:
 1) El cartón tiene que tener 15 números repartidos entre las 10 decenas de los 100 números posibles de manera que en cada decena (por ejemplo del 0 al 9, del 10 al 19, etc) existan 1 o 2 números.
+
+2) Se debe crear un endpoint (*jugar_continuo*) que saca todos los números necesarios para terminar el bingo y devuelve el cartón ganador y todos los números que fueron sacados durante el juego
+
+3) La cantidad de números de un cartón se debe poder modificar en el inicio del juego, siendo 15 el número predeterminado.
+
